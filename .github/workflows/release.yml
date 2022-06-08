@@ -20,6 +20,9 @@ jobs:
           extra_plugins: |
             @semantic-release/changelog
             @semantic-release/git
+            @jortfal/semantic-release-terraform-config
+          extends: |
+            @jortfal/semantic-release-terraform-config
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
