@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/kosteva/tf-release-test/compare/v1.0.0...v1.0.1) (2022-06-08)
+
+
+### Bug Fixes
+
+* **comments:** release me! ([0cd85d8](https://github.com/kosteva/tf-release-test/commit/0cd85d8cb7e05a00bee1f31cc78e8a3e382808d3))
+
 # 1.0.0 (2022-06-08)
 
 
