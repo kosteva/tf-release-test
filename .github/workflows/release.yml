@@ -9,17 +9,15 @@ jobs:
     name: release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - name: Checkout
+      uses: actions/checkout@v3
       - name: Semantic Release
-        uses: cycjimmy/semantic-release-action
-        with:
-          # semantic_version: 17
-          extra_plugins: |
-            @semantic-release/git
-            @semantic-release/changelog
-            @jortfal/semantic-release-terraform-config
-          extends: |
-            @jortfal/semantic-release-terraform-config
-        # env:
-        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: cycjimmy/semantic-release-action@v3
+      with:
+        # You can specify specifying version range for the extra plugins if you prefer.
+        extra_plugins: |
+          @semantic-release/changelog@3.0.0
+          @semantic-release/git
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
