@@ -15,8 +15,8 @@ jobs:
         uses: cycjimmy/semantic-release-action@v3
         with:
         # You can specify specifying version range for the extra plugins if you prefer.
-          branches:
-            - main
+          branches: |
+            main
           extra_plugins: |
             @semantic-release/changelog
             @semantic-release/git
