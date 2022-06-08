@@ -11,8 +11,16 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
-      - uses: bahmutov/npm-install@v1
-      - run: npx semantic-release
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@v2.5.4
+        with:
+          semantic_version: 17
+          extra_plugins: |
+            @semantic-release/git@9.0.1
+            @semantic-release/exec@6.0.1
+            @semantic-release/changelog@6.0.0
+            @jortfal/semantic-release-terraform-config
+          extends: |
+            @jortfal/semantic-release-terraform-config
         # env:
         #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        #   NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_BOT_NPM_TOKEN }}
