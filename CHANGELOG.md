@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/kosteva/tf-release-test/compare/v1.1.0...v1.2.0) (2022-06-08)
+
+
+### Features
+
+* **comments:** yet more comments ([#5](https://github.com/kosteva/tf-release-test/issues/5)) ([2fde85a](https://github.com/kosteva/tf-release-test/commit/2fde85aa9135caca8bc78053f9332c0ef5e5f02c))
+
 # [1.1.0](https://github.com/kosteva/tf-release-test/compare/v1.0.2...v1.1.0) (2022-06-08)
 
 
