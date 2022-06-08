@@ -19,6 +19,8 @@ jobs:
             main
           extra_plugins: |
             @jortfal/semantic-release-terraform-config
+            @semantic-release/changelog
+            @semantic-release/git
           extends: |
             @jortfal/semantic-release-terraform-config
         env:
