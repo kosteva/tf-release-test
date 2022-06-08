@@ -1,3 +1,16 @@
+## [1.0.2](https://github.com/kosteva/tf-release-test/compare/v1.0.1...v1.0.2) (2022-06-08)
+
+
+### Bug Fixes
+
+* **comments:** release me! ([1ca97e5](https://github.com/kosteva/tf-release-test/commit/1ca97e5a93ee0834e6ce02208c8fb0d6647b6340))
+* **release:** tabs ([64c18fb](https://github.com/kosteva/tf-release-test/commit/64c18fbc3aa5236b12baf0f27cb6251c5e0cadb3))
+* **rollback:** rollback to working yml ([9b3a48c](https://github.com/kosteva/tf-release-test/commit/9b3a48ca6cd65c2dd10f44d3a4d4311eaddd1f59))
+* **versions:** version! ([2e70c5c](https://github.com/kosteva/tf-release-test/commit/2e70c5cd5d1056b287de6b3f612a7d5123eb92ed))
+* **woooo:** put back ([697d5d0](https://github.com/kosteva/tf-release-test/commit/697d5d020e699ffd04e2dff85fa5285f6a007653))
+* **woooo:** put back ([dab8aeb](https://github.com/kosteva/tf-release-test/commit/dab8aebf8ecbf7c9b89b66e852c8c2df3a7afa3a))
+* **woooo:** unlock ([5196859](https://github.com/kosteva/tf-release-test/commit/5196859ca227f71ac212616d98664e0ecf0e2627))
+
 ## [1.0.1](https://github.com/kosteva/tf-release-test/compare/v1.0.0...v1.0.1) (2022-06-08)
 
 
