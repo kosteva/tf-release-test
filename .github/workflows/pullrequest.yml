@@ -16,8 +16,8 @@ jobs:
         with:
         # You can specify specifying version range for the extra plugins if you prefer.
           semantic_version: 17
-          branches: |
-            main
+          # branches: |
+          #   main
           extra_plugins: |
             semantic-release-pr-analyzer
         env:
